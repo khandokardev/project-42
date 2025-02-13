@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Css Start */
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* Common Css End */
+
+/* ====================
+Navber Code Start
+======================= */
+.container{
+    width: 1410px;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+    background: #F8FDFE;
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.logo-part{
+    width: 20%;
+}.menu-part{
+    width: 60%;
+}.button-part{
+    width: 20%;
+}
+
+nav .menu-part ul{
+    display: flex;
+    column-gap: 48px;
+    justify-content: center;    
+
+}
+nav .menu-part ul li a{
+    font-size: 18px;
+    color: rgb(53, 43, 43);
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+}
+
+nav .menu-part ul li :hover{
+    color: #8454F5;
+}
+nav .menu-part ul li a i{
+    margin-left: 3.5px;
+}
+
+nav .button-part a{
+    background: #8454F5;
+    padding: 14px 28px;
+    border-radius: 18px;
+    font-family: "Nunito", serif;
+    color: white;
+    font-weight: 600px;
+    font-size: 18px;
+    text-align: right;
+}
+
+/* ====================
+Navber Code Start
+======================= */
